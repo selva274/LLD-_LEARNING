@@ -34,6 +34,7 @@ class VehicleFactory{
    return vehicle;
     }
 }
+
 class Main {
 public static void main(String[] args) {
    Vehicle bike=VehicleFactory.getVehicleType("bike");
